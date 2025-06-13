@@ -37,7 +37,7 @@ green_ship = pygame.transform.scale(green_ship_img, (ship_width, ship_height)).c
 blue_ship = pygame.transform.scale(blue_ship_img, (ship_width, ship_height)).convert_alpha()
 
 bullet_fire_sound = pygame.mixer.Sound('multigame/gallery/audio/sfx_fire.ogg')
-
+#TEST
 def handle_bullets(green_bullets, blue_bullets, green, blue):
     for bullet in green_bullets:
         bullet.x += bullet_velocity
